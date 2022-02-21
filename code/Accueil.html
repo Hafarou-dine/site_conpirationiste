@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site_conspi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">    
+</head>
+<body class="d-flex flex-column min-vh-100" style="background-image: url(../image/bg.jpg);background-repeat: no-repeat;background-size: cover;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-warning" href="Accueil.html"><img src="../image/logo_modifier.png" alt="Logo" width="40px" height="40px">LaCarverned'AliChakra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-5">
+                        <a class="nav-link active fs-5 text-warning" aria-current="page" href="Accueil.html">Home</a>
+                        <a class="nav-link active fs-5 text-warning" href="catalogue.html">Catalogue</a>
+                        <a class="nav-link active fs-5 text-warning" href="conseils.html">Conseils</a>
+                        <a class="nav-link active fs-5 text-warning" href="infos.html">Informations</a>
+                        <a class="nav-link active fs-5 text-warning" href="chat.html">Chat</a>
+                        <a class="nav-link active fs-5" href="panier.html"><img src="../image/pq.png" alt="Panier" width="40px" height="40px"></a>
+                    </div>
+                    <div class="ms-auto">
+                        <button type="button" class="btn btn-outline-secondary fw-bold rounded-pill text-warning" onclick="window.location.href='./connexion.html'">Se connecter</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- Banderole -->
+        <div class="bg-danger py-3 fw-bold text-center mb-3">
+            <p>Ne montrez pas ce site aux moutons!Ne montrez pas ce site aux moutons!Ne montrez pas ce site aux moutons!Ne montrez pas ce site aux moutons!Ne montrez pas ce site aux moutons!Ne montrez pas ce site aux moutons!</p>
+        </div>
+
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../image/here-we-are.jpg" class="d-block w-100" alt="Image" height="300px">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/bunker_inside.jpg" class="d-block w-100" alt="Image" height="300px">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/the-entrance.jpg" class="d-block w-100" alt="Image" height="300px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="my-5 container-fluid text-white">
+            <div class="row">
+                <div class="col text-center">
+                    <!-- Bienvenu -->
+                    <p>Bienvenu à toi. On peut définir l’imagination apocalyptique du point de vue de ses préoccupations philosophiques, à partir de la juxtaposition puis de la transformation qui marquent le moment où un ancien monde de l’esprit en découvre un nouveau, crédible, qui annihile et détruit complètement l’ancien système, ou […] qui l’intègre dans un modèle plus large.<br> Si vous ne croyez pas en notre théorie</p>
+                    <button type="button" class="btn btn-primary rounded-pill" onclick="window.location.href='https://www.bfmtv.com/'">Cliquez ici</button>
+                </div>
+                <div class="col text-center">
+                    <!-- Map -->
+                    <p>Localisation</p>
+                    <img src="../image/triangle.jpg" alt="Triangle des bermudes">
+                </div>
+            </div>
+        </div>
+
+        <!-- Citation -->
+        <div class="border border-0 border-secondary rounded-pill bg-danger text-white text-center mx-3 fw-bold  fs-4">
+            <p>Nikola Tesla a dit un jour: “Si vous voulez trouver les secrets de l'univers, pensez en termes d'énergie, de fréquence, d'information et de vibration.”</p>
+        </div>
+    </main>
+
+
+    <footer class="bg-dark mt-auto pb-2">
+        <div class="text-center text-warning">LaCaverned'AliChakra&copy</div>
+        <div class="d-flex flex-row justify-content-around navbar-nav">
+            <a class="nav-link active text-warning" href="#">Mentions illégales</a>
+            <!-- 
+            L'icone ci-dessous vient du site icons8.fr 
+            Activer le lien ci-dessous avant de deployer cette page
+            <a href="https://icons8.com/icon/100819/ethereum">Ethereum icon by Icons8</a> 
+            -->
+            <a class="nav-link active text-dark" href="#"><img src="https://img.icons8.com/ios-filled/30/000000/ethereum.png"/></a>
+            <!-- 
+            L'icone ci-dessous vient du site icons8.fr 
+            Activer le lien ci-dessous avant de deployer cette page
+            <a href="https://icons8.com/icon/F4ZPUh2Mk5tk/télégramme-app">Télégramme App icon by Icons8</a> 
+            -->
+            <a class="nav-link active text-dark" href="#"><img src="https://img.icons8.com/ios-filled/30/000000/telegram-app.png"/></a>
+            <a class="nav-link active text-warning" href="#">Politique de remboursemment</a>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
